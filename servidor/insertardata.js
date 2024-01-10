@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Avion = require('./models/Avion')
 
 // Conexión a la base de datos
-mongoose.connect("mongodb+srv://mariajosesoles:123@cluster0.p3atj70.mongodb.net/mean?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://mariajosesoles:123@cluster0.pgvz8te.mongodb.net/mean?retryWrites=true&w=majority", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
